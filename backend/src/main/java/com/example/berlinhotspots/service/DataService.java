@@ -45,7 +45,6 @@ public class DataService {
                 accidents.add(a);
             }
 
-            System.out.println("✅ Loaded accidents: " + accidents.size());
 
         } catch (Exception e) {
             System.err.println("Failed to load accidents CSV");
@@ -71,7 +70,7 @@ public class DataService {
                 hotspots.add(h);
             }
 
-            System.out.println("✅ Loaded hotspots: " + hotspots.size());
+        
 
         } catch (Exception e) {
             System.err.println("Failed to load hotspots CSV");
