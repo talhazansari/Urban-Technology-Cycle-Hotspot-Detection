@@ -1,4 +1,4 @@
-🚲 Urban Technology – Cyclist Hotspot Detection
+Urban Technology – Cyclist Hotspot Detection
 
 This project analyzes cyclist accident data in Berlin (2021) to identify spatial accident hotspots using geospatial analysis and clustering techniques.
 
@@ -16,19 +16,20 @@ Visualizes results using an interactive web map (Spring Boot + React + Leaflet)
 
 Methodology
 
-Geo-spatial processing using Python (GeoPandas)
+Geospatial processing using Python (GeoPandas)
 
-Kernel Density Estimation (KDE) for risk intensity
+Kernel Density Estimation (KDE) to measure accident intensity
 
-DBSCAN for hotspot detection
+DBSCAN clustering for hotspot detection
 
-Weighted risk scoring:
+Weighted severity-based risk scoring:
+
 Risk = (Fatal × 5) + (Serious × 3) + (Slight × 1)
 
 Tech Stack
 
-Python (Data Processing & Clustering)
+Python (Data processing and clustering)
 
 Spring Boot (Backend API)
 
-React + Leaflet (Frontend Visualization)
+React + Leaflet (Frontend visualization)
